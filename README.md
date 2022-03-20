@@ -33,7 +33,7 @@ Below is a quick list of all functions currently in Roblox PY.
 ```foo.API_links``` returns API links used by Roblox such as message and friends. ```foo.API_links``` returns a dictionary for keys and values of API links. <br/>
 - ```foo.API_links['profileicon']``` returns the link of the profile picture icon of the user
 - ```foo.API_links['friends']``` returns the friends link of the user
-- ```foo.API_links['message']``` returns the message linik of the user
+- ```foo.API_links['message']``` returns the message link of the user
 <br/><br/>
 **Returns List:**
 <br/>
@@ -47,32 +47,32 @@ The username and inventory functions return ```[]``` if nothing is returned. If 
 **Returns True/False:**
 <br/>
 The following funtions return a bool when called:
-- ```foo.terminated``` checks termination
-- ```foo.private``` checks for private inventory
-- ```foo.is_online``` checks if online
-- ```foo.chat_disabled``` checks for enabled chat
-- ```foo.display_enabled``` checks for enabled display name
-- ```foo.message_disabled``` checks for messaging enabled
+- ```foo.terminated``` checks termination <br/>
+- ```foo.private``` checks for private inventory <br/>
+- ```foo.is_online``` checks if online <br/>
+- ```foo.chat_disabled``` checks for enabled chat <br/>
+- ```foo.display_enabled``` checks for enabled display name <br/>
+- ```foo.message_disabled``` checks for messaging enabled <br/>
 <br/><br/>
 **Returns String:**
 The following functions return string when called:
-- ```foo.username``` returns player username
-- ```foo.id``` returns player ID
-- ```foo.last_online``` returns time in date time format
-- ```foo.value``` returns player value (Rolimons)
-- ```foo.rap``` returns player RAP
-- ```foo.collectibles``` returns number of limiteds owned
-- ```foo.friends``` returns amount of friends
-- ```foo.followers``` returns amount of followers
-- ```foo.following``` returns amount of players following
-- ```foo.display_name``` returns player displayname (if enabled)
-- ```foo.description``` returns player description
+- ```foo.username``` returns player username <br/>
+- ```foo.id``` returns player ID <br/>
+- ```foo.last_online``` returns time in date time format <br/>
+- ```foo.value``` returns player value (Rolimons) <br/>
+- ```foo.rap``` returns player RAP <br/>
+- ```foo.collectibles``` returns number of limiteds owned <br/>
+- ```foo.friends``` returns amount of friends <br/>
+- ```foo.followers``` returns amount of followers <br/>
+- ```foo.following``` returns amount of players following <br/>
+- ```foo.display_name``` returns player displayname (if enabled) <br/>
+- ```foo.description``` returns player description <br/>
 <br/><br/>
 **Information:**
   <br/>
-  Information parsed by Roblox PY is from the following sources:
-  - rblxTrade (https://rblx.trade/docs/index.html)
-  - rolimons (https://rolimons.com)
-  - roblox (https://roblox.com)
+  Information parsed by Roblox PY is from the following sources: <br/>
+  - rblxTrade (https://rblx.trade/docs/index.html) <br/>
+  - rolimons (https://rolimons.com) <br/>
+  - roblox (https://roblox.com) <br/>
   <br/>
- 
+  
